@@ -22,9 +22,6 @@ struct TaskRow: View {
         }
         .padding(.horizontal)
         .background(Color(.systemGray5))
-        //        .overlay(alignment: .leading) {
-        //
-        //        }
         .clipShape(.rect(cornerRadius: 10))
         .contentShape(Rectangle())
         .onTapGesture {
